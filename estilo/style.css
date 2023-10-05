@@ -26,9 +26,14 @@ body {
     max-width: 390px;
     border-radius: 15px;
     padding: 20px;
-    background-color: white;
+    border: 1px solid white;
+
+    backdrop-filter: blur(10px);
 }
 
+.text {
+    color: #fff;
+}
 /*Responsividade*/
 
 @media screen and (max-width:480px) {
